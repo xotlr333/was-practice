@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ea56d5f-ade4-4823-b08c-12ab0edb5674" name="Changes" comment="was 구현&#10;- http 프로토콜 구조 구현&#10;- GET 방식으로 사칙연산 기능 구현">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ClientRequestHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CustomWebApplicationServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CustomWebApplicationServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.http" beforeDir="false" afterPath="$PROJECT_DIR$/test.http" afterDir="false" />
-    </list>
+    <list default="true" id="6ea56d5f-ade4-4823-b08c-12ab0edb5674" name="Changes" comment="요청별 Thread 생성" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -148,7 +143,7 @@
       <updated>1678083515946</updated>
       <workItem from="1678083517410" duration="4521000" />
       <workItem from="1678115518670" duration="627000" />
-      <workItem from="1678163466809" duration="8939000" />
+      <workItem from="1678163466809" duration="9326000" />
     </task>
     <task id="LOCAL-00001" summary="프로젝트 생성">
       <created>1678091229773</created>
@@ -171,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678170851452</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="요청별 Thread 생성">
+      <created>1678199865059</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678199865059</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,7 +194,8 @@
     <MESSAGE value="프로젝트 생성" />
     <MESSAGE value="was 구현" />
     <MESSAGE value="was 구현&#10;- http 프로토콜 구조 구현&#10;- GET 방식으로 사칙연산 기능 구현" />
-    <option name="LAST_COMMIT_MESSAGE" value="was 구현&#10;- http 프로토콜 구조 구현&#10;- GET 방식으로 사칙연산 기능 구현" />
+    <MESSAGE value="요청별 Thread 생성" />
+    <option name="LAST_COMMIT_MESSAGE" value="요청별 Thread 생성" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
