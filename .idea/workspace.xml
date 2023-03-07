@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ea56d5f-ade4-4823-b08c-12ab0edb5674" name="Changes" comment="was 구현">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HttpRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HttpResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/QueryString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/QueryStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/RequestLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/calculate/ArithmeticOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/calculate/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/QueryStringTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/QueryStringsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/RequestLineTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="6ea56d5f-ade4-4823-b08c-12ab0edb5674" name="Changes" comment="was 구현&#10;- http 프로토콜 구조 구현&#10;- GET 방식으로 사칙연산 기능 구현">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ClientRequestHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CustomWebApplicationServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CustomWebApplicationServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.http" beforeDir="false" afterPath="$PROJECT_DIR$/test.http" afterDir="false" />
@@ -158,7 +148,7 @@
       <updated>1678083515946</updated>
       <workItem from="1678083517410" duration="4521000" />
       <workItem from="1678115518670" duration="627000" />
-      <workItem from="1678163466809" duration="6133000" />
+      <workItem from="1678163466809" duration="8939000" />
     </task>
     <task id="LOCAL-00001" summary="프로젝트 생성">
       <created>1678091229773</created>
@@ -174,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678091290387</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="was 구현&#10;- http 프로토콜 구조 구현&#10;- GET 방식으로 사칙연산 기능 구현">
+      <created>1678170851452</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678170851452</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,7 +191,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="프로젝트 생성" />
     <MESSAGE value="was 구현" />
-    <option name="LAST_COMMIT_MESSAGE" value="was 구현" />
+    <MESSAGE value="was 구현&#10;- http 프로토콜 구조 구현&#10;- GET 방식으로 사칙연산 기능 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value="was 구현&#10;- http 프로토콜 구조 구현&#10;- GET 방식으로 사칙연산 기능 구현" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
